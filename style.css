@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+h2 {
+    font-size: 3vw;
+    text-align: center; 
+    text-transform: uppercase;   
+}
+
+h3 {
+    font-size: 2vw;     
+    text-transform: uppercase;
+    margin: 15px 0 5px 10px;    
+}
+
+p {
+    font-size: 2vw;
+}
+
+a {
+    font-size: 2vw;
+    text-decoration: none;
+    color: #000000;
+    align-self: center;
+}
+
+.wrapper-container {
+    max-width: 1200px;    
+    margin: 0 auto;                
+}
+
+.container {
+    display: flex;
+}
+
+/* ******************************** Header *********************************** */
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;            
+}
+
+.photo {    
+    height: auto;
+    width: 100%;  
+    max-width: 200px;
+    margin: 10px;    
+}
+
+.name {
+    font-size: 4vw;
+    white-space: nowrap;
+    text-transform: uppercase;    
+}
+
+/* ******************************** Contact *********************************** */
+.section-left {
+    width: 50%;
+    border-right: 2px solid #000000;
+}
+
+.section-right {
+    width: 50%;
+}
+
+.wrapper-info {
+    margin: 10px; 
+    border-bottom: 2px solid #000000;       
+}
+
+.wrapper-contact { 
+    display: flex;      
+}
+
+.wrapper-contact span{
+    font-size: 2vw;
+    align-self: center;     
+}
+
+.contact-img {
+    margin: 10px 20px 10px 10px;
+}
+
+.wrapper-skills ul li{
+    margin-left: 40px;
+    font-size: 1.5vw;
+}
+
+@media (max-width: 769px) {
+    .photo {        
+        max-width: 160px;           
+    }
+ }
+
+ @media (max-width: 520px) {
+    .photo {        
+        max-width: 110px;           
+    }
+ }
