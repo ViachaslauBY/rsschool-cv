@@ -24,3 +24,9 @@ My main goal is to get a job as a Front-end developer and to become a highly qua
 - **Figma**
 
 ---
+
+## Languages
+
+- **English: A2**
+- **Belarusian: Native**
+- **Russian: Fluent**
